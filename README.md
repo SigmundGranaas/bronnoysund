@@ -14,6 +14,7 @@ The backend is split into four services: CsvParser, Company service, Statistics 
 * A bit too much orchestration logic ended up in the controller. Ideally this should be extracted, and the controller should only be responsible for handling http/web related issues.
 * Should have included tests for the Statistic service as well.
 * The styling on the frontend should have been cleaned up. Too much time was being spent trying to make it look right before discarding most of it.
+* Too many logging and trycatch statements have been used. It really ads to the complexity without really adding a lot of value.
   
 ## Running the project
 ### Docker compose

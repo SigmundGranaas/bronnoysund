@@ -6,7 +6,7 @@ The backend parses the CSV, and processes all entries via the entity registry fr
 
 The backend is split into four services: CsvParser, Company service, Statistics service and Brønnøysundservice.
 * The Csv parser parses raw CSV data into a strutured format
-* The Brønnøysundservice maps entity idss into real Entities, before mapping this data into the generalized company data.
+* The Brønnøysundservice maps entity ids into real Entities, before mapping this data into the generalized company dto.
 * The Company service orchestrates the conversion from IDs to company entities, and handles any malformed company results.
 * The Statistic service uses the generated data from the Company service to do some simple calculations for the whole dataset.
 

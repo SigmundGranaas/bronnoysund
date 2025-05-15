@@ -6,7 +6,7 @@
 docker compose up
 ```
 
-### manually
+### Manually
 Frontend
 
 `cd frontend && npm install && npm run dev`

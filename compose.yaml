@@ -1,0 +1,33 @@
+﻿version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./BrønnApi/BrønnApi 
+      dockerfile: Dockerfile
+    image: bronnapi-backend
+    ports:
+      - "5150:5150"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:5150
+    restart: unless-stopped
+    networks:
+      - brønn-net
+
+  frontend:
+    build:
+      context: ./frontend          
+      dockerfile: Dockerfile
+    image: bronnapi-frontend
+    ports:
+      - "5173:80" 
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - brønn-net
+
+networks:
+  brønn-net:
+    driver: bridge

@@ -1,0 +1,14 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AChatMessage_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003F1782acdfbdc3883ed12bb1cb07f6851f6d789b47e525ab9cb952bb9f8d157_003FChatMessage_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AUserChatMessage_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fd15eaacbdda913a9935c44864cac908beaa846d08ce29b1443516c1580a2a65_003FUserChatMessage_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa64297a_002Ddb02_002D4642_002D8b7c_002D75aaafa76d70/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AIParserIntegrationTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Not&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;MSTest::4903FC77-8359-46FC-BCA5-354EBDFF136A::net9.0::BrønnApi.test.SimplifiedCsvParserTest.TestWithCustomCsv&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+  &lt;/Not&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	</wpf:ResourceDictionary>

@@ -88,13 +88,13 @@ public class CsvCompanyParser
                     }
                     catch (Exception ex)
                     {
-                        _logger.LogWarning(ex, "Error parsing record at row {RowNumber}", csv.Context.Parser?.Row);
+                        _logger.LogDebug(ex, "Error parsing record at row {RowNumber}", csv.Context.Parser?.Row);
                     }
                 }
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error parsing CSV with {MappingType} mapping", 
+                _logger.LogDebug(ex, "Error parsing CSV with {MappingType} mapping", 
                     reverseMapping ? "reversed" : "normal");
             }
         }

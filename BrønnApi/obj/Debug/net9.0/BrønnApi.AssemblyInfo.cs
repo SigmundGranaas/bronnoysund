@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BrønnApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ef817a1dd3eaa67623b5d21f5217047f268feb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("BrønnApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BrønnApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

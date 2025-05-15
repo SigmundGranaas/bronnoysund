@@ -7,10 +7,11 @@ interface CompanyStatusBadgeProps {
 export const CompanyStatusBadge: React.FC<CompanyStatusBadgeProps> = ({ status }) => {
     if (!status) return <span className="badge-default">-</span>;
 
-    return status;
+    // Null is fine to return as a React component, but not undefined.
+    return status ?? null;
     
-    // Didn't like this actually...
-    switch(status.toUpperCase()) {
+    // Didn't like this actually so we'll just return the normal status for now...
+    switch(status?.toUpperCase()) {
         case 'NORMAL':
             return (
                 <span className="px-2 py-1 text-xs rounded-full bg-green-100 text-green-800">

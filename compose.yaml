@@ -1,9 +1,7 @@
-﻿version: '3.8'
-
-services:
+﻿services:
   backend:
     build:
-      context: ./BrønnApi/BrønnApi 
+      context: ./BrønnApi 
       dockerfile: Dockerfile
     image: bronnapi-backend
     ports:
